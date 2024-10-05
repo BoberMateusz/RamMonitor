@@ -13,8 +13,7 @@ Written in C#
 Create a database table named *MemoryUsageData* using the provided SQL command:
 ```
 CREATE TABLE MemoryUsageData (
-  id INT IDENTITY(1,1) PRIMARY KEY,
-  MemoryUsage VARCHAR(255),
+  MemoryUsage BigInt,
   Time DATETIME2
 );
 ```
